@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Instagram Application Automation Test And Test Suites ">
+    <listeners>
+        <listener class-name="com.insta.qa.ExtentReporter.ExtentReporterNG"/>
+    </listeners>
+    <test name="Instagram application Testcases">
+        <classes>
+            <class name="com.insta.qa.TestPages.HomePageTest"/>
+            <class name="com.insta.qa.TestPages.TestMessage"/>
+            <class name="com.insta.qa.TestPages.TestSignUp"/>
+            <class name="com.insta.qa.TestPages.TestLoginPage"/>
+        </classes>
+    </test>
+</suite>
+<!--<suite name="Instagram Application Automation Test And Test Suites ">-->
+<!--    <listeners>-->
+<!--        <listener class-name="com.insta.listners.InstaListners"/>-->
+<!--    </listeners>-->
+<!--    <test name="Instagram application Testcases">-->
+<!--        <classes>-->
+<!--&lt;!&ndash;            <class name="com.insta.qa.TestPages.TestLoginPage"/>&ndash;&gt;-->
+<!--            <class name="com.insta.qa.TestPages.HomePageTest"/>-->
+<!--&lt;!&ndash;            <class name="com.insta.qa.TestPages.TestMessage"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.insta.qa.TestPages.TestSignUp"/>&ndash;&gt;-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
